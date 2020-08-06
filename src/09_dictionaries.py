@@ -6,7 +6,7 @@ populate dictionaries using comprehensions just like you can with
 lists!).
 
 The docs can be found here:
-https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+https://docs.python.org/3/tutorial/waydatastructures.html#dictionaries
 
 For this exercise, you have a list of dictionaries. Each dictionary
 has the following keys:
@@ -34,14 +34,20 @@ waypoints = [
 ]
 
 # Add a new waypoint to the list
-# YOUR CODE HERE
+print(waypoints[2]["lat"])
+waypoints.append({'lat': 46, 'lon': -120, 'name': 'my place'})
+print(waypoints)
 
 # Modify the dictionary with name "a place" such that its longitude
 # value is -130 and change its name to "not a real place"
 # Note: It's okay to access the dictionary using bracket notation on the
 # waypoints list.
 
-# YOUR CODE HERE
+waypoints[0]["lon"]= -130
+print(waypoints)
+waypoints[0]["name"]= "a real place"
+print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
-# YOUR CODE HERE
+for i in waypoints["lat"]:
+    print(i)
