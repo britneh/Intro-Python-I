@@ -51,7 +51,7 @@ elif l == 2:
   month = int(sys.argv[1])
   year = datetime.now().year
 
-  cal = calendar.TextCalendar
+  cal = calendar.TextCalendar()
   cal.prmonth(year, month)
 
 elif l == 3:
@@ -59,7 +59,7 @@ elif l == 3:
   month = int(sys.argv[1])
   year = int(sys.argv[2])
 
-  cal = calendar.TextCalendar
+  cal = calendar.TextCalendar()
   cal.prmonth(year, month)
 
 else:

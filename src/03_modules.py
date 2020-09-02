@@ -8,12 +8,12 @@ level operating system functionality.
 import sys
 # See docs for the sys module: https://docs.python.org/3.7/library/sys.html
 
-# Print out the command line arguments in sys.argv, one per line:
-# for i in range(len(sys.argv)):
-#     if i == 0:
-#         print("Function name: %s" % sys.argv[0])
-#     else:
-#         print("%d.argument: %s" % (i, sys.argv[i]))
+#Print out the command line arguments in sys.argv, one per line:
+for i in range(len(sys.argv)): #for i in sys.argv
+    if i == 0:
+        print("Function name: %s" % sys.argv[0])
+    else:
+        print("%d.argument: %s" % (i, sys.argv[i]))
 
 # Print out the OS platform you're using:
 

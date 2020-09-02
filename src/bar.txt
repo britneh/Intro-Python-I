@@ -1,4 +1,3 @@
-I created something cool, yay
-now why isn't it working
-boo maybe more words?
-I don't know
+This is a thing that I'm writing.
+ This should be the second line.
+ This should be the third.
